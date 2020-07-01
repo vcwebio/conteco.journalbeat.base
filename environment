@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="journalbeat.base - ContEco"
+export CONTECO_DESCRIPTION="Journalbeat Base image, with templated default configuration."
+
+export CONTECO_TYPE="journalbeat"
+export CONTECO_NAME="base"
+export CONTECO_TAG="7.8.0"
+
+export CONTECO_BASE="external.journalbeat:7.8.0"
+export CONTECO_BUILD="image-base"
